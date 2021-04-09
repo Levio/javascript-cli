@@ -1,0 +1,25 @@
+{
+  "name": "my",
+  "version": "1.0.0",
+  "author": "levi",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.9"
+  },
+  "bin": {
+    "asweb": "./bin/www"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "didyoumean": "^1.2.1",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.3",
+    "log-symbols": "^4.0.0",
+    "ora": "^5.1.0",
+    "semver": "^7.3.4",
+    "validate-npm-package-name": "^3.0.0"
+  }
+}
