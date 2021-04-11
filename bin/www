@@ -19,9 +19,9 @@ function checkNodeVersion(wanted, id) {
   }
 }
 
-checkNodeVersion(requiredVersion, "@asweb/cli");
+checkNodeVersion(requiredVersion, "@levi/cli");
 
-const program = new comander.Command("asweb");
+const program = new comander.Command("jscli");
 
 program.version(require("../package").version).usage("<command> [options]");
 

@@ -1,5 +1,5 @@
 {
-  "name": "my",
+  "name": "js_cli",
   "version": "1.0.0",
   "author": "levi",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "node": ">=8.9"
   },
   "bin": {
-    "asweb": "./bin/www"
+    "jscli": "./bin/www"
   },
   "dependencies": {
     "chalk": "^4.1.0",
